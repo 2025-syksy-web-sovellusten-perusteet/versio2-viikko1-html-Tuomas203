@@ -6,16 +6,49 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Viikko 1 – Taulukko</title>
   <link rel="stylesheet" href="./styles.css" />
+  <style>
+    table, th, td{
+    border: 2px solid black;  
+    }
+  </style>
 </head>
 <body>
   <header>
-    <h1><!-- TODO: Taulukko-sivun H1 --></h1>
+    <h1><!-- TODO: Taulukko-sivun H1 -->Taulukko</h1>
     <nav aria-label="Päävalikko">
       <!-- TODO: Sama navigaatio kuin muilla sivuilla -->
+       <a href="/index/">index</a>
+       <a href="/table/">table</a>
+       <a href="/form/">form</a>
+       <a href="/image/">image</a> 
     </nav>
   </header>
   <main>
     <!-- TODO: Lisää datataulukko, jossa on caption + thead/tbody -->
+     <table>
+      <caption> Caption </caption>
+      <thead>
+  <tr>
+    <th>header</th>
+    <th>header</th>
+    <th>header</th>
+  </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>table data</td>
+      <td>table data</td>
+      <td>table data</td>
+    </tr>
+  </tbody>
+  <tfoot>
+    <tr>
+      <td>table data</td>
+      <td>table data</td>
+      <td>table data</td>
+    </tr>
+  </tfoot>
+  </table>
   </main>
   <footer>
     <!-- TODO: Footer -->
